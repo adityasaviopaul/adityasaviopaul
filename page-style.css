@@ -1,63 +1,30 @@
-.centerText {
-  text-align: center;
-  margin-top: -30px;
-}
-
 .ULStyleSquareBullet{
-list-style-type:square; font-size:25px; LINE-HEIGHT:40px; 
-
+  list-style-type:square;
+  font-size:25px;
+  line-height:40px;
 }
 
 .ULStyleSquareEmptyCircle{
-	
-font-size: medium; padding-left:20px;
-
+  font-size: medium;
+  padding-left:20px;
 }
 
-/* .justify{
-  text-justify: auto|inter-word|inter-character|none|initial|inherit;
-} */
-
-.textarea{
-  background-color:white;
-  color:black;
-  padding-bottom:20px;
-  max-height: 50000px;
-}
-
-.pagebackground{
+.footer {  
   background-color: grey;
-}
-
-
-
-
-/* Style page content */
-.main {
-  margin-left   : 130px; /* Same as the width of the sidebar */
-  margin-top    : 0px;
-  padding-top: 50px;
-  padding-right : 50px;
-  padding-left  : 50px;
-   max-width    : 600px;
-   min-height: 800px;
-}
-
-.center {
-  margin: auto;
-  width: 100%;
-  padding:00px;
-}
-.centerText {
-  text-align: center;
-}
-
-.footer {
-  position: bottom;
-  
+  padding: 12px 0px;
+  position: fixed;
   bottom: 0;
-  width: 600px;
-  
-  color: black;
-  text-align: right;
+  width: 100%;
+}
+
+.para-container {
+  padding: 10px 57px; 
+}
+
+.contact-links span {
+  width: 35px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
