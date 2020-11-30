@@ -1,6 +1,9 @@
 /* The sidebar menu */
 .sidenav {
-  background-color: #111; /* Black */  
+  background-color: #111; /* Black */
+  position: fixed;
+  left: 0;
+  height: 100vh;
 }
 
 /* The navigation menu links */
