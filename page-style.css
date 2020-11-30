@@ -18,7 +18,7 @@
 }
 
 .para-container {
-  padding: 10px 57px; 
+  padding: 10px 0px; 
 }
 
 .contact-links span {
@@ -27,4 +27,8 @@
 
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.w-60 {
+  width: 60%;
 }
