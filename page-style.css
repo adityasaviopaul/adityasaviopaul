@@ -1,7 +1,10 @@
 .ULStyleSquareBullet{
   list-style-type:square;
   font-size:25px;
-  line-height:40px;
+}
+
+.ULStyleSquareBullet li {
+  margin-bottom: 25px;
 }
 
 .ULStyleSquareEmptyCircle{
@@ -31,4 +34,17 @@
 
 .w-60 {
   width: 60%;
+}
+
+.ml-15 {
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ml-15 {
+    margin-left: 20%;
+  }
+  .w-60 {
+    width: 70%;
+  }
 }
