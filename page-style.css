@@ -47,4 +47,10 @@
   .w-60 {
     width: 70%;
   }
+  .ULStyleSquareBullet {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 32px !important;
+  }
 }
