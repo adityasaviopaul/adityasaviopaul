@@ -4,6 +4,7 @@
   position: fixed;
   left: 0;
   height: 100vh;
+  width: 15%;
 }
 
 /* The navigation menu links */
@@ -20,3 +21,11 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    width: 20%;
+  }
+  .sidenav a {
+    font-size: 20px;
+  }
+}
